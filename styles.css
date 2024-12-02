@@ -1,21 +1,47 @@
 
 /* Your CSS Code here. */
-<style>
     table {
-      border-collapse: collapse;
-      width: 90%;
-      margin: 20px auto;
-    }
-    th, td {
-      border: 1px solid black;
-      padding: 10px;
-      text-align: center;
-    }
-    .nested-table {
-      margin: 10px auto;
-      width: 80%;
-    }
-    .black-cell {
+  width: 90%; /* Adjusting for overall table size */
+  margin: 20px 30px;
+  border: 2px solid black; /* Ensure a bold border similar to the first table */
+   /* Align text to the left */
+  font-family: Arial, sans-serif;
+  /* Apply the yellow background */
+}
+
+th, td {
+  border: 2px solid black; /* Make borders consistent with the first table */
+  padding: 5px 2px; /* Same padding as the first table */
+  text-align: center; /* Align text inside cells to the left */
+}
+
+thead th {
+   /* Same yellow header background */
+  color: #000; /* Black text for contrast */
+  font-weight: bold; /* Ensure the headers are bold */
+  font-size: 1.5em; /* Larger font size for emphasis */
+  text-align: left; /* Align headers text to the left */
+}
+
+caption {
+  font-size: 2em;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.nested-table {
+  width: 80%; /* Nested table width */
+  margin: 10px auto; /* Center the nested table */
+  border: 2px solid black; /* Consistent border for nested tables */
+  /* Optional: Set a different background for nested tables for clarity */
+}
+
+.nested-table th, .nested-table td {
+  border: 2px solid black; /* Consistent border for nested table cells */
+  padding: 5px 2px;
+  text-align: center; /* Align text left for nested tables */
+}
+.black-cell {
       background-color: black;
       color: white;
-    }
+    } 
