@@ -1,9 +1,9 @@
 
 /* Your CSS Code here. */
     table {
-  width: 90%; /* Adjusting for overall table size */
-  margin: 20px 30px;
-  border: 2px solid black; /* Ensure a bold border similar to the first table */
+  width: 95%; /* Adjusting for overall table size */
+  margin: 1px 1px;
+  border: 1px solid black; /* Ensure a bold border similar to the first table */
    /* Align text to the left */
   font-family: Arial, sans-serif;
   /* Apply the yellow background */
@@ -30,9 +30,9 @@ caption {
 }
 
 .nested-table {
-  width: 80%; /* Nested table width */
-  margin: 10px auto; /* Center the nested table */
-  border: 2px solid black; /* Consistent border for nested tables */
+  width: 100%; /* Nested table width */
+  margin: 5px auto; /* Center the nested table */
+  border: 1px solid black; /* Consistent border for nested tables */
   /* Optional: Set a different background for nested tables for clarity */
 }
 
